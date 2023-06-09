@@ -1,6 +1,6 @@
 function page() {
   return (
-    <div className=" ">
+    <div className=" w-full h-screen">
       <h1 className=" text-4xl font-bold flex-center text-center p-8">
         About Me
       </h1>

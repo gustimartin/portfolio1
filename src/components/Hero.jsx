@@ -8,7 +8,7 @@ function Hero() {
       <h2 className=" text-center text-5xl font-semibold">
         My Personal Portfolio
       </h2>
-      <p className=" text-xl flex-start p-6">
+      <p className=" first-letter:text-5xl first-letter:text-sky-700 text-start text-xl flex-start p-6">
         Portfolio build with Next js, React js, javascript and Tailwind css with
         a responsive design and a light/Dark feature. Please feel free to look
         around and see my work and my background.
