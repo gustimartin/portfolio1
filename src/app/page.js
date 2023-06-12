@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import { ToastContainer } from "react-toastify";
 export default function Home() {
   return (
     <main className=" w-full h-screen bg-gray-200">

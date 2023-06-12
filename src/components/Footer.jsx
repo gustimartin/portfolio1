@@ -1,7 +1,7 @@
 import { SiGmail } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
 import Image from "next/legacy/image";
-
+import Link from "next/link";
 function Footer() {
   return (
     <div className=" w-full bg-gray-300  grid grid-cols-6 relative p-4  ">
@@ -21,7 +21,9 @@ function Footer() {
             <h2 className=" font-semibold text-lg ">Gustavo Enrique Martin</h2>
             <p className=" text-gray-700">Fullstack Developer</p>
           </li>
-          <li className=" py-8">Contact Form</li>
+          <Link href="/contact">
+            <li className=" py-8">Contact Me</li>
+          </Link>
         </ul>
       </div>
       <div className=" flex-cols  gap-6 p-8 col-span-3">
