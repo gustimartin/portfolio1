@@ -3,10 +3,10 @@ function page() {
     <div className=" w-full h-screen bg-gray-200 p-16">
       <div className=" p-8 bg-white rounded-lg  shadow-2xl   text-xl ">
         {" "}
-        <h1 className=" text-4xl font-bold flex-center text-sky-700 text-center p-8">
+        <h1 className=" text-4xl font-bold flex-center text-sky-900 text-center p-8">
           About Me
         </h1>
-        <p className=" flex-center  text-center text-xl p-6">
+        <p className=" flex-center  text-center text-xl p-6 text-gray-700">
           {" "}
           Fullstack Developer with over 800 hours of practice in SoyHenry.
           Troughout these 800 hours of practice i have gotten the chance to not

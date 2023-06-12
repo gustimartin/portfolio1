@@ -5,10 +5,10 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 function Headers() {
   return (
-    <div className=" w-full bg-sky-700 justify-between grid grid-rows-1 grid-cols-3 p-4 pt-8 items-center">
+    <div className=" w-full bg-gray-900 justify-between grid grid-rows-1 grid-cols-3 p-4 pt-8 items-center ">
       <Link href="/">
         <div className=" flex items-center text-white font-semibold text-xl justify-start">
-          <DiCssdeck size="2rem" /> <span>Portfolio</span>
+          <DiCssdeck size="2.5rem" /> <span>Portfolio</span>
         </div>
       </Link>
       <div
