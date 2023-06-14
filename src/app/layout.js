@@ -18,7 +18,6 @@ export default function RootLayout({ children }) {
         <Headers />
         {children}
         <ToastContainer />
-        <Footer />
       </body>
     </html>
   );

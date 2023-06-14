@@ -15,65 +15,121 @@ import {
 
 function page() {
   return (
-    <div className=" bg-gray-200 w-full h-screen  grid-cols-3   pt-8 px-4 ">
-      <div className="w-12/12 p-8 bg-white rounded-lg shadow-lg text-xl  justify-center self-center item-center  content-center">
-        <h1 className=" text-sky-900">Frontend</h1>
-        <ul className="flex  gap-6 justify-center  ">
-          <li className=" ">
-            <SiNextdotjs size="2.5rem" />
-            <p>Nextjs</p>
-          </li>{" "}
-          <li>
-            <SiReact size="2.5rem" className=" text-sky-500" />
-            <p>Reactjs</p>
-          </li>
-          <li>
-            <SiTailwindcss size="2.5rem" className=" text-sky-500" />
-            <p>TailwindCss</p>
-          </li>
-          <li>
-            <SiJavascript size="2.5rem" className=" text-yellow-400" />
-            <p>Javascript</p>
-          </li>
-          <li>
-            <SiHtml5 size="2.5rem" className=" text-orange-700" />
-            <p>Html5</p>
-          </li>
-          <li>
-            <SiCss3 size="2.5rem" className=" text-sky-700" />
-            <p>Css3</p>
-          </li>
-          <li>
-            <SiRedux size="2.5rem" className=" text-purple-700" />
-            <p>Redux</p>
-          </li>
-        </ul>
-      </div>
-      <div className="w-12/12 p-8 bg-white rounded-lg shadow-xl mt-8 text-xl">
-        <h1 className=" text-sky-900">Backend</h1>
-        <ul className="flex gap-4 justify-center ">
-          <li>
-            <SiNodedotjs size="2.5rem" className=" text-green-700" />
-            <p>Nodejs</p>
-          </li>
-          <li>
-            <SiExpress size="2.5rem" />
-            <p>Express</p>
-          </li>
-        </ul>
-      </div>
-      <div className="w-12/12 p-8 bg-white rounded-lg shadow-lg mt-8  text-xl ">
-        <h1 className=" text-sky-900">Database</h1>
-        <ul className=" flex gap-6 justify-center ">
-          <li>
-            <SiMongodb size="2.5rem" className=" text-green-700" />
-            <p>Mongodb</p>
-          </li>
-          <li>
-            <SiMysql size="2.5rem" />
-            <p>MySQL</p>
-          </li>
-        </ul>
+    <div className="  w-full lg:h-screen  p-2 pt-28 md:pt-6 ">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+        <h2 className="flex text-sky-950 tracking-widest p-4 ">Skills</h2>
+        <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiHtml5 size="2.5rem" className=" text-orange-700" />
+              </div>
+              <div>
+                <h3>Html5</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiCss3 size="2.5rem" className=" text-sky-700" />
+              </div>
+              <div>
+                <h3>Css3</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiJavascript size="2.5rem" className=" text-yellow-400" />
+              </div>
+              <div>
+                <h3>Javascript</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiTailwindcss size="2.5rem" className=" text-sky-500" />
+              </div>
+              <div>
+                <h3>TailwindCss</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiReact size="2.5rem" className=" text-sky-500" />
+              </div>
+              <div>
+                <h3>Reactjs</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiNextdotjs size="2.5rem" className=" text-black" />
+              </div>
+              <div>
+                <h3>Nextjs</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiRedux size="2.5rem" className=" text-purple-700" />
+              </div>
+              <div>
+                <h3>Redux</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300  hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiNodedotjs size="2.5rem" className=" text-green-700" />
+              </div>
+              <div>
+                <h3>Nodejs</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiExpress size="2.5rem" />
+              </div>
+              <div>
+                <h3>Express</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiMysql size="2.5rem" />
+              </div>
+              <div>
+                <h3>MySQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white">
+            <div className="grid grid-cols-2 justify-center gap-4 items-center ">
+              <div className=" m-auto">
+                <SiMongodb size="2.5rem" className=" text-green-700" />
+              </div>
+              <div>
+                <h3>Mongodb</h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
