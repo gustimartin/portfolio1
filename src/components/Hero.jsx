@@ -4,7 +4,10 @@ import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs";
 import hero2 from "../../public/hero2.jpg";
 function Hero() {
   return (
-    <div className=" mx-auto  pt-96 md:pt-6 bg-gray-200 w-full h-screen">
+    <div
+      id="hero"
+      className=" mx-auto  pt-96 md:pt-6 bg-gray-200 w-full h-screen"
+    >
       <div className=" pb-4 max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center md:grid md:grid-cols-2">
         <div className=" flex-col  py-6 pl-8 md:max-w-prose">
           <h1 className="  text-sky-900 text-center  text-6xl font-bold tracking-widest">

@@ -1,6 +1,6 @@
 function page() {
   return (
-    <div className=" w-full h-screen bg-gray-200 p-16">
+    <div id="about" className=" w-full h-screen bg-gray-200 p-16">
       <div className=" p-8 bg-white rounded-lg  shadow-2xl   text-xl ">
         {" "}
         <h1 className=" text-4xl font-bold flex-center text-sky-900 text-center p-8">

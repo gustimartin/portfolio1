@@ -15,7 +15,7 @@ import {
 
 function page() {
   return (
-    <div className="  w-full lg:h-screen  p-2 pt-28 md:pt-6 ">
+    <div id="tech" className="  w-full lg:h-screen  p-2 pt-28 md:pt-6 ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2 className="flex text-sky-950 tracking-widest p-4 ">Skills</h2>
         <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-8">

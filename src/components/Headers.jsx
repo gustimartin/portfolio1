@@ -1,11 +1,10 @@
 "use client";
 import Link from "next/link";
-import { Container } from "postcss";
-import { DiCssdeck } from "react-icons/di";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
-
+import Image from "next/legacy/image";
+import logoNav from "../../public/logo1.png";
 function Headers() {
   const [nav, setNav] = useState(false);
 
@@ -17,43 +16,34 @@ function Headers() {
     <div className=" z-[100] fixed w-full bg-gray-900 shadow-xl h-20 ease-in duration-300">
       <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <div className="text-white">
-            <DiCssdeck size="2.5rem" />
-          </div>
+          <Image src={logoNav} alt="image" width="125" height="50" />
         </Link>
         <div>
           <ul className="  hidden md:flex text-white ">
-            <Link href="/project">
-              <li
-                onClick={() => setNav(false)}
-                className=" list-none ml-10 text-sm uppercase hover:border-b "
-              >
+            <Link href="/">
+              <li className=" list-none ml-10 text-sm uppercase hover:border-b ">
+                <nav>Home</nav>
+              </li>
+            </Link>
+            <Link href="/#projects">
+              <li className=" list-none ml-10 text-sm uppercase hover:border-b ">
                 <nav>Projects</nav>
               </li>
             </Link>
 
             <Link href="/tech">
-              <li
-                onClick={() => setNav(false)}
-                className="  list-none ml-10 text-sm uppercase hover:border-b"
-              >
+              <li className="  list-none ml-10 text-sm uppercase hover:border-b">
                 <nav>Tecnologies</nav>
               </li>
             </Link>
 
             <Link href="/about">
-              <li
-                onClick={() => setNav(false)}
-                className=" list-none ml-10 text-sm uppercase hover:border-b"
-              >
+              <li className=" list-none ml-10 text-sm uppercase hover:border-b">
                 <nav>About</nav>
               </li>
             </Link>
             <Link href="/contact">
-              <li
-                onClick={() => setNav(false)}
-                className="  list-none ml-10 text-sm uppercase hover:border-b"
-              >
+              <li className="  list-none ml-10 text-sm uppercase hover:border-b">
                 <nav>Contact</nav>
               </li>
             </Link>
@@ -78,8 +68,7 @@ function Headers() {
           <div>
             <div className="flex w-full items-center justify-between ">
               <div className=" ">
-                {" "}
-                <DiCssdeck size="2.5rem" />
+                <Image src={logoNav} alt="image" width="87" height="35" />
               </div>
               <div
                 onClick={handleNav}
@@ -95,18 +84,24 @@ function Headers() {
           <div className=" flex flex-col py-4">
             <ul className=" uppercase">
               <Link href="/">
-                <li className=" py-4 text-sm">Home</li>
+                <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                  Home
+                </li>
               </Link>
               <Link href="/tech">
-                <li className=" py-4 text-sm">Tecnologies</li>
+                <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                  Tecnologies
+                </li>
               </Link>
-              <Link href="/project">
-                <li className=" py-4 text-sm">projects</li>
+              <Link href="/#projects">
+                <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                  projects
+                </li>
               </Link>
-              <Link href="/about">
+              <Link onClick={() => setNav(false)} href="/about">
                 <li className=" py-4 text-sm">About</li>
               </Link>
-              <Link href="/contact">
+              <Link onClick={() => setNav(false)} href="/contact">
                 <li className=" py-4 text-sm">Contact</li>
               </Link>
             </ul>

@@ -41,7 +41,7 @@ function page() {
     reset();
   };
   return (
-    <div className=" w-full lg:h-screen ">
+    <div id="contact" className=" w-full lg:h-screen ">
       <div className=" max-w-[1240px] m-auto  px-6 py-16 w-full ">
         <div className=" grid lg:grid-cols-5 gap-8">
           <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4">
