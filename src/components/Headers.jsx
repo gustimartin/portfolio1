@@ -4,7 +4,8 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/legacy/image";
-import logoNav from "../../public/logo1.png";
+import logoNav2 from "../../public/lgf2.png";
+import logoNav from "../../public/lgf1.png";
 function Headers() {
   const [nav, setNav] = useState(false);
 
@@ -14,9 +15,9 @@ function Headers() {
 
   return (
     <div className=" z-[100] fixed w-full bg-gray-900 shadow-xl h-20 ease-in duration-300">
-      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className=" flex justify-between  items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src={logoNav} alt="image" width="125" height="50" />
+          <Image src={logoNav} alt="image" width="150" height="80" />
         </Link>
         <div>
           <ul className="  hidden md:flex text-white ">
@@ -68,7 +69,7 @@ function Headers() {
           <div>
             <div className="flex w-full items-center justify-between ">
               <div className=" ">
-                <Image src={logoNav} alt="image" width="87" height="35" />
+                <Image src={logoNav2} alt="image" width="87" height="35" />
               </div>
               <div
                 onClick={handleNav}
@@ -110,12 +111,20 @@ function Headers() {
                 Let&#39;s Connect
               </p>
               <div className=" flex item-center justify-between my-4 w-full sm:w-[80%] ">
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsLinkedin />
-                </div>
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsGithub />
-                </div>
+                {" "}
+                <Link
+                  href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
+                  target="_blank"
+                >
+                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <BsLinkedin />
+                  </div>
+                </Link>
+                <Link href="https://github.com/gustimartin" target="_blank">
+                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <BsGithub />
+                  </div>
+                </Link>
                 <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
                 </div>

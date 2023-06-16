@@ -7,6 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs";
 import Image from "next/legacy/image";
 import pic from "../../../public/pic.png";
+import Link from "next/link";
 function page() {
   const {
     register,
@@ -44,7 +45,7 @@ function page() {
     <div id="contact" className=" w-full lg:h-screen ">
       <div className=" max-w-[1240px] m-auto  px-6 py-16 w-full ">
         <div className=" grid lg:grid-cols-5 gap-8">
-          <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4">
+          <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4 rounded-md">
             <div className="lg:p-4 h-full rounded-md hover:bg-white">
               <div className=" p-4">
                 <Image
@@ -64,12 +65,19 @@ function page() {
               <div>
                 <p className=" uppercase pt-8 pb-2">Let&#39;s Connect</p>
                 <div className="flex  py-2  item-center md:pt-0 justify-between  p-4  max-w-[330px] m-auto   ">
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsLinkedin />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsGithub />
-                  </div>
+                  <Link
+                    href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
+                    target="_blank"
+                  >
+                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsLinkedin />
+                    </div>
+                  </Link>
+                  <Link href="https://github.com/gustimartin" target="_blank">
+                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                      <BsGithub />
+                    </div>
+                  </Link>
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
