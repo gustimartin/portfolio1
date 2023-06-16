@@ -14,7 +14,7 @@ function Headers() {
   };
 
   return (
-    <div className=" z-[100] fixed w-full bg-gray-900 shadow-xl h-20 ease-in duration-300">
+    <div className=" z-[100] fixed w-full bg-gray-900 shadow-xl h-20 ease-in duration-300 ">
       <div className=" flex justify-between  items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image src={logoNav} alt="image" width="150" height="80" />
@@ -69,7 +69,7 @@ function Headers() {
           <div>
             <div className="flex w-full items-center justify-between ">
               <div className=" ">
-                <Image src={logoNav2} alt="image" width="87" height="35" />
+                <Image src={logoNav2} alt="image" width="100" height="50" />
               </div>
               <div
                 onClick={handleNav}
@@ -125,12 +125,14 @@ function Headers() {
                     <BsGithub />
                   </div>
                 </Link>
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <BsFillPersonLinesFill />
-                </div>
-                <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
+                </div> */}
+                <Link href="/contact">
+                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMail />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

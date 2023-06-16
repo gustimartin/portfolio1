@@ -78,12 +78,12 @@ function page() {
                       <BsGithub />
                     </div>
                   </Link>
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
-                  </div>
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  </div> */}
+                  {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

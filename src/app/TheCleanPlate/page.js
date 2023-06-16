@@ -24,29 +24,24 @@ function page() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            The Clean Plate is a group project completed within a period of
+            three weeks. In this project, you can purchase high-quality and
+            healthy food, search and filter items, add them to your cart, and
+            view product details to see if they fit your macros. The admin has
+            the ability to delete or update products and suspend user accounts.
+            This project taught me the importance of teamwork and improved my
+            communication skills. It was a very enjoyable experience.
           </p>
-          <a
-            href="https://github.com/fireclint/property-finder"
+          <Link
+            href="https://github.com/gustimartin/final-project-henry"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
-            href="https://property-finder-development.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          </Link>
+          <Link href="https://frontend-pf-seven.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
@@ -55,9 +50,13 @@ function page() {
               <p className="text-gray-600 py-2 flex items-center">React</p>
               <p className="text-gray-600 py-2 flex items-center">Tailwind</p>
               <p className="text-gray-600 py-2 flex items-center">Javascript</p>
-              <p className="text-gray-600 py-2 flex items-center">Firebase</p>
-              <p className="text-gray-600 py-2 flex items-center">Google API</p>
-              <p className="text-gray-600 py-2 flex items-center">Zillow API</p>
+              <p className="text-gray-600 py-2 flex items-center">
+                Redux Toolkit
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">Stripe</p>
+              <p className="text-gray-600 py-2 flex items-center">Express</p>
+              <p className="text-gray-600 py-2 flex items-center">Mongodb</p>
+              <p className="text-gray-600 py-2 flex items-center">Cloudinary</p>
             </div>
           </div>
         </div>

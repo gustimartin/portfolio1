@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className=" mx-auto  pt-96 md:pt-6 bg-gray-200 w-full h-screen"
+      className=" mx-auto   pt-96 md:pt-6 bg-gray-200 w-full h-screen  pb-96 md:pb-0"
     >
       <div className=" pb-4 max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center md:grid md:grid-cols-2">
         <div className=" flex-col  py-6 pl-8 md:max-w-prose">
@@ -49,12 +49,14 @@ function Hero() {
                 <BsGithub />
               </div>
             </Link>
-            <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+            {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <BsFillPersonLinesFill />
-            </div>
-            <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
+            </div> */}
+            <Link href="/contact">
+              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </Link>
           </div>
         </div>
       </div>
