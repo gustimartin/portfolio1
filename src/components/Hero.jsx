@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div
       id="hero"
-      className=" mx-auto   pt-96 md:pt-6 bg-gray-200 w-full h-screen  pb-96 md:pb-0"
+      className=" mx-auto   pt-96 md:pt-2 bg-gray-200 w-full h-screen  pb-96 md:pb-0"
     >
       <div className=" pb-4 max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center md:grid md:grid-cols-2">
         <div className=" flex-col  py-6 pl-8 md:max-w-prose">
@@ -15,17 +15,17 @@ function Hero() {
             Welcome To
           </h1>
           <br />
-          <h2 className=" text-center text-5xl font-semibold  text-sky-900  tracking-widest">
+          <h2 className=" text-center text-5xl font-semibold  py-2 text-sky-900  tracking-widest">
             My Personal Portfolio
           </h2>
-          <p className=" first-letter:text-5xl first-letter:text-gray-900  max-w-[85%] m-auto text-xl  p-6 text-gray-700 tracking-widest">
+          <p className=" first-letter:text-5xl first-letter:text-gray-900  max-w-[85%] mx-auto text-xl  pt-4 pb-2 text-gray-700 tracking-widest">
             Portfolio build with Next js, React js, javascript and Tailwind css
             with a responsive design and a light/Dark feature. Please feel free
             to look around and see my work and my background.
           </p>
         </div>
 
-        <div className=" px-2">
+        <div className=" p-2">
           {" "}
           <Image
             src={hero2}
@@ -35,7 +35,7 @@ function Hero() {
             // width="1200"
             // height="800"
           />{" "}
-          <div className="flex  py-4  item-center md:pt-0 justify-between  p-4  max-w-[330px] m-auto   ">
+          <div className="flex  py-2 md:pt-6 item-center md:pt-0 justify-between  p-4  max-w-[330px] m-auto   ">
             <Link
               href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
               target="_blank"

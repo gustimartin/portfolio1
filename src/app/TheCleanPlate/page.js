@@ -4,7 +4,7 @@ import React from "react";
 import bgImg from "../../../public/thecleanplate.png";
 function page() {
   return (
-    <div className="w-full">
+    <div className="w-full pt-20">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image

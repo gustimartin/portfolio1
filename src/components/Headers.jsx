@@ -8,13 +8,12 @@ import logoNav2 from "../../public/lgf2.png";
 import logoNav from "../../public/lgf1.png";
 function Headers() {
   const [nav, setNav] = useState(false);
-
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
-    <div className=" z-[100] fixed w-full bg-gray-900 shadow-xl h-20 ease-in duration-300 ">
+    <div className=" z-[100] fixed w-full bg-gray-900  shadow-xl h-20 ease-in duration-300 ">
       <div className=" flex justify-between  items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image src={logoNav} alt="image" width="150" height="80" />

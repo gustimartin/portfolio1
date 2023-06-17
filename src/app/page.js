@@ -3,7 +3,7 @@ import Projects from "@/components/projects";
 import { ToastContainer } from "react-toastify";
 export default function Home() {
   return (
-    <main className=" w-full h-screen bg-gray-200">
+    <main className=" w-full h-screen py-32">
       {" "}
       <Hero />
       <Projects />
