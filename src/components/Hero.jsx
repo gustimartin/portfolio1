@@ -35,7 +35,7 @@ function Hero() {
             // width="1200"
             // height="800"
           />{" "}
-          <div className="flex  py-2 md:pt-6 item-center md:pt-0 justify-between  p-4  max-w-[330px] m-auto   ">
+          <div className="flex  py-2  item-center md:pt-6 justify-between  p-2  max-w-[330px] mx-auto   ">
             <Link
               href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
               target="_blank"
