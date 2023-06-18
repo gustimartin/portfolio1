@@ -1,4 +1,4 @@
-function page() {
+function Page() {
   return (
     <div
       id="about"
@@ -27,4 +27,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

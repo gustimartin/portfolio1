@@ -1,8 +1,8 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
-import bgImg from "../../../public/henrycountry.png";
-function page() {
+import bgImg from "../../../public/thecleanplate.png";
+function Page() {
   return (
     <div className="w-full pt-20">
       <div className="w-screen h-[50vh] relative">
@@ -15,7 +15,7 @@ function page() {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Henry Countries</h2>
+          <h2 className="py-2">The Clean Plate</h2>
         </div>
       </div>
 
@@ -24,23 +24,22 @@ function page() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Henry Countries was my first full-stack project consuming a
-            countries API. In this project, you can search or filter for a
-            country and retrieve details such as population, capital, and
-            continent. Additionally, you have the option to create a new
-            activity for a country or explore existing activities available in
-            that country. I learned a lot from this project, and if I could do
-            something differently, I would make the website responsive and
-            change its style.
+            The Clean Plate is a group project completed within a period of
+            three weeks. In this project, you can purchase high-quality and
+            healthy food, search and filter items, add them to your cart, and
+            view product details to see if they fit your macros. The admin has
+            the ability to delete or update products and suspend user accounts.
+            This project taught me the importance of teamwork and improved my
+            communication skills. It was a very enjoyable experience.
           </p>
           <Link
-            href="https://github.com/gustimartin/pi-countries-henry"
+            href="https://github.com/gustimartin/final-project-henry"
             target="_blank"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
-
-          <Link href="" target="_blank">
+          <Link href="https://frontend-pf-seven.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4">Demo</button>
           </Link>
         </div>
@@ -49,12 +48,15 @@ function page() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">React</p>
-              <p className="text-gray-600 py-2 flex items-center">Css3</p>
+              <p className="text-gray-600 py-2 flex items-center">Tailwind</p>
               <p className="text-gray-600 py-2 flex items-center">Javascript</p>
-              <p className="text-gray-600 py-2 flex items-center">Redux</p>
+              <p className="text-gray-600 py-2 flex items-center">
+                Redux Toolkit
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">Stripe</p>
               <p className="text-gray-600 py-2 flex items-center">Express</p>
-              <p className="text-gray-600 py-2 flex items-center">Nodejs</p>
-              <p className="text-gray-600 py-2 flex items-center">MySQL</p>
+              <p className="text-gray-600 py-2 flex items-center">Mongodb</p>
+              <p className="text-gray-600 py-2 flex items-center">Cloudinary</p>
             </div>
           </div>
         </div>
@@ -66,4 +68,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

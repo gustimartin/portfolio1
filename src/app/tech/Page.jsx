@@ -13,7 +13,7 @@ import {
   SiMysql,
 } from "react-icons/si";
 
-function page() {
+function Page() {
   return (
     <div id="tech" className="  w-full lg:h-screen  p-2 pt-28 md:pt-6 ">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
@@ -135,4 +135,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
