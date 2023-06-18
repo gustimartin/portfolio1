@@ -8,7 +8,7 @@ import { BsLinkedin, BsGithub, BsFillPersonLinesFill } from "react-icons/bs";
 import Image from "next/legacy/image";
 import pic from "../../../public/pic.png";
 import Link from "next/link";
-function page() {
+function Page() {
   const {
     register,
     handleSubmit,
@@ -202,4 +202,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
