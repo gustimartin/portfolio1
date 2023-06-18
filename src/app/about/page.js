@@ -3,7 +3,7 @@ function Page() {
   return (
     <div
       id="about"
-      className=" w-full md:pt-28 pt-10 h-screen bg-gray-200 p-16"
+      className=" w-full md:pt-28 pt-10 h-screen bg-gray-200 p-4 md:p-16"
     >
       <div className=" p-2 md:p-8 bg-white rounded-lg  shadow-2xl   text-xl ">
         {" "}
