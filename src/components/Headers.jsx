@@ -105,7 +105,7 @@ function Headers() {
                 <li className=" py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <div className=" pt-28">
+            <div className=" pt-10">
               <p className=" uppercase tracking-widest text-sky-950">
                 Let&#39;s Connect
               </p>
