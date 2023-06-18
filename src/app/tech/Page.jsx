@@ -1,4 +1,5 @@
 import { GrReactjs } from "react-icons/gr";
+import react from "react";
 import {
   SiReact,
   SiTailwindcss,
