@@ -105,7 +105,7 @@ function Headers() {
                 <li className=" py-4 text-sm">Contact</li>
               </Link>
             </ul>
-            <div className=" pt-40">
+            <div className=" pt-28">
               <p className=" uppercase tracking-widest text-sky-950">
                 Let&#39;s Connect
               </p>
@@ -124,10 +124,7 @@ function Headers() {
                     <BsGithub />
                   </div>
                 </Link>
-                {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div> */}
-                <Link href="/contact">
+                <Link onClick={() => setNav(false)} href="/contact">
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
