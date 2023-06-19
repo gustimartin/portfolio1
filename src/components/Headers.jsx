@@ -52,11 +52,12 @@ function Headers() {
             </Link>
             <li className="  list-none ml-10 text-sm uppercase hover:border-b">
               <button
+                className=" px-4 py-2 text-gray-200 bg-gray-950"
                 onClick={() =>
                   setColorMode(colorMode === "light" ? "dark" : "light")
                 }
               >
-                toggle
+                {colorMode}
               </button>
             </li>
           </ul>
@@ -73,7 +74,7 @@ function Headers() {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-200 p-10 ease-in duration-500 overflow-auto   "
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-200 p-10 ease-in dark:bg-slate-800  duration-500 overflow-auto   "
               : " fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
@@ -84,60 +85,81 @@ function Headers() {
               </div>
               <div
                 onClick={handleNav}
-                className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:text-gray-200 dark:bg-gray-950 dark:shadow-gray-700"
               >
                 <AiOutlineClose />
               </div>
             </div>
             <div className=" border-b border-gray-400 my-4 ">
-              <p className="w-[85%] md:w-[90%] py-4 ">Let the coding beegin</p>
+              <p className="w-[85%] dark:text-gray-200 md:w-[90%] py-4 ">
+                Let the coding beegin
+              </p>
             </div>
           </div>
           <div className=" flex flex-col py-4">
             <ul className=" uppercase">
+              <li>
+                <button
+                  className=" px-4 py-2 text-gray-200 bg-gray-950"
+                  onClick={() =>
+                    setColorMode(colorMode === "light" ? "dark" : "light")
+                  }
+                >
+                  {colorMode}
+                </button>
+              </li>
               <Link href="/">
-                <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className=" py-4 text-sm dark:text-gray-200"
+                >
                   Home
                 </li>
               </Link>
               <Link href="/tech">
-                <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className=" py-4 text-sm dark:text-gray-200"
+                >
                   Tecnologies
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                <li
+                  onClick={() => setNav(false)}
+                  className=" py-4 text-sm dark:text-gray-200"
+                >
                   projects
                 </li>
               </Link>
               <Link onClick={() => setNav(false)} href="/about">
-                <li className=" py-4 text-sm">About</li>
+                <li className=" py-4 text-sm dark:text-gray-200">About</li>
               </Link>
               <Link onClick={() => setNav(false)} href="/contact">
-                <li className=" py-4 text-sm">Contact</li>
+                <li className=" py-4 text-sm dark:text-gray-200">Contact</li>
               </Link>
             </ul>
             <div className=" pt-10">
-              <p className=" uppercase tracking-widest text-sky-950">
+              <p className=" uppercase tracking-widest text-sky-950 dark:text-gray-200">
                 Let&#39;s Connect
               </p>
-              <div className=" flex item-center justify-between my-4 w-full sm:w-[80%] ">
+              <div className=" flex item-center justify-between my-4 w-full sm:w-[80%]">
                 {" "}
                 <Link
                   href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
                   target="_blank"
                 >
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className=" dark:bg-slate-950 dark:text-gray-200 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsLinkedin />
                   </div>
                 </Link>
                 <Link href="https://github.com/gustimartin" target="_blank">
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className=" dark:bg-slate-950 dark:text-gray-200 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsGithub />
                   </div>
                 </Link>
                 <Link onClick={() => setNav(false)} href="/contact">
-                  <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className=" dark:bg-slate-950 dark:text-gray-200 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </Link>
