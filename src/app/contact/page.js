@@ -76,12 +76,12 @@ function Page() {
                     href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
                     target="_blank"
                   >
-                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-200">
+                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:bg-gray-950 dark:text-gray-200">
                       <BsLinkedin />
                     </div>
                   </Link>
                   <Link href="https://github.com/gustimartin" target="_blank">
-                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-200">
+                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-200 dark:bg-gray-950">
                       <BsGithub />
                     </div>
                   </Link>
