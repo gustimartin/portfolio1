@@ -3,14 +3,14 @@ function Page() {
   return (
     <div
       id="about"
-      className=" w-full md:pt-28 pt-14 h-screen bg-gray-200 p-4 md:p-16"
+      className=" w-full md:pt-28 pt-14 h-screen bg-gray-200 p-4 md:p-16 dark:bg-slate-800 dark:text-gray-200"
     >
-      <div className=" p-2 md:p-8 bg-white rounded-lg  shadow-2xl   text-xl ">
+      <div className=" p-2 md:p-8 bg-white rounded-lg  shadow-2xl   text-xl dark:bg-slate-800 shadow-gray-400 ">
         {" "}
-        <h1 className=" text-4xl font-bold flex-center text-sky-900 text-center p-8">
+        <h1 className=" text-4xl font-bold flex-center text-sky-900 text-center p-8  dark:text-gray-200">
           About Me
         </h1>
-        <p className=" flex-center  text-center text-lg  md:text-xl p-2 md:p-6 text-gray-700">
+        <p className=" flex-center  text-center text-lg  md:text-xl p-2 md:p-6 text-gray-700  dark:text-gray-200">
           {" "}
           Full-stack Developer with over 800 hours of practice at SoyHenry.
           Throughout these 800 hours of practice, I have had the opportunity not
