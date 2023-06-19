@@ -52,7 +52,8 @@ function Headers() {
             </Link>
             <li className="  list-none ml-10 text-sm uppercase">
               <button
-                className=" px-4 py-1 text-gray-200 bg-gray-900 shadow-gray-950"
+                className=" px-4 py-1 dark:text-gray-200
+                dark:shadow-gray-950 dark:bg-gray-900"
                 onClick={() =>
                   setColorMode(colorMode === "light" ? "dark" : "light")
                 }
