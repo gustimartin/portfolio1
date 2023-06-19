@@ -18,7 +18,7 @@ function Hero() {
           <h2 className=" text-center text-5xl font-semibold  py-2 text-sky-900  tracking-widest dark:text-gray-200">
             My Personal Portfolio
           </h2>
-          <p className=" first-letter:text-5xl first-letter:text-gray-900  max-w-[85%] mx-auto text-xl  pt-4 pb-2 text-gray-700 tracking-widest dark:text-gray-200">
+          <p className=" first-letter:text-5xl first-letter:text-gray-900 dark:first-letter:text-gray-100 max-w-[85%] mx-auto text-xl  pt-4 pb-2 text-gray-700 tracking-widest dark:text-gray-200">
             Portfolio build with Next js, React js, javascript and Tailwind css
             with a responsive design and a light/Dark feature. Please feel free
             to look around and see my work and my background.
@@ -40,18 +40,18 @@ function Hero() {
               href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
               target="_blank"
             >
-              <div className=" rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 dark:text-gray-200 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className=" rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 dark:text-gray-200 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:bg-gray-900 dark:hover:bg-gray-950">
                 <BsLinkedin />
               </div>
             </Link>
             <Link href="https://github.com/gustimartin" target="_blank">
-              <div className=" rounded-full dark:shadow-gray-700 dark:text-gray-200 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className=" rounded-full dark:shadow-gray-700 dark:text-gray-200 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:bg-gray-900 dark:hover:bg-gray-950">
                 <BsGithub />
               </div>
             </Link>
 
             <Link href="/contact">
-              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-200">
+              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-200 dark:bg-gray-900 dark:hover:bg-gray-950">
                 <AiOutlineMail />
               </div>
             </Link>
