@@ -16,12 +16,15 @@ function Page() {
           Throughout these 800 hours of practice, I have had the opportunity not
           only to learn new technologies but also to build an individual project
           and a group project, where I learned to work in an organized team.
-          Before delving into web development, I worked in construction with
-          concrete and farming, from which I learned the value of hard work and
-          consistency. I have experienced the satisfaction of working in a team
-          with people who share the same goal. That is precisely what I expect
-          to find in web development, to be part of a bigger goal and
-          experiencing the gratifying feeling of getting the job done.
+          Before delving into web development, I pursued a career in veterinary
+          medicine, where I acquired effective learning methods and collaborated
+          with fellow students on presentations and various evaluated projects.
+          Additionally, I worked in construction with concrete and farming, from
+          which I learned the value of hard work and consistency. I have
+          experienced the satisfaction of working in a team with people who
+          share the same goal. That is precisely what I expect to find in web
+          development, to be part of a bigger goal and experiencing the
+          gratifying feeling of getting the job done.
         </p>
       </div>
     </div>
