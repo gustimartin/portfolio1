@@ -6,7 +6,10 @@ import { useState } from "react";
 import Image from "next/legacy/image";
 import logoNav2 from "../../public/lgf2.png";
 import logoNav from "../../public/lgf1.png";
+import useColorMode from "@/hooks/useColorMode";
+
 function Headers() {
+  const [colorMode, setColorMode] = useColorMode();
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
@@ -45,6 +48,15 @@ function Headers() {
             <Link href="/contact">
               <li className="  list-none ml-10 text-sm uppercase hover:border-b">
                 <nav>Contact</nav>
+              </li>
+              <li className="  list-none ml-10 text-sm uppercase hover:border-b">
+                <button
+                  onClick={() =>
+                    setColorMode(colorMode === "light" ? "dark" : "light")
+                  }
+                >
+                  toggle
+                </button>
               </li>
             </Link>
           </ul>
