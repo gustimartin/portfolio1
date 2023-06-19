@@ -1,6 +1,7 @@
-"use clent";
-import { useTheme } from "next-themes";
+"use client";
 import { useState, useEffect } from "react";
+import { useTheme } from "next-themes";
+
 const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -14,11 +15,13 @@ const ThemeSwitch = () => {
   }
 
   return (
-    <select value={theme} onChange={(e) => setTheme(e.target.value)}>
-      <option value="system">System</option>
-      <option value="dark">Dark</option>
-      <option value="light">Light</option>
-    </select>
+    <div>
+      The current theme is: {theme}
+      <br />
+      <button onClick={() => setTheme("light")}>Light Mode</button>
+      <br />
+      <button onClick={() => setTheme("dark")}>Dark Mode</button>
+    </div>
   );
 };
 export default ThemeSwitch;
