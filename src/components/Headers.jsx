@@ -6,6 +6,7 @@ import { useState } from "react";
 import Image from "next/legacy/image";
 import logoNav2 from "../../public/lgf2.png";
 import logoNav from "../../public/lgf1.png";
+import ThemeSwitch from "@/app/themeswitch";
 function Headers() {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -47,6 +48,9 @@ function Headers() {
                 <nav>Contact</nav>
               </li>
             </Link>
+            <li className="  list-none ml-10 text-sm uppercase hover:border-b">
+              <ThemeSwitch />
+            </li>
           </ul>
           <div onClick={handleNav} className=" md:hidden  text-white">
             <AiOutlineMenu size={25} />
