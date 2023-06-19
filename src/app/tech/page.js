@@ -25,7 +25,10 @@ function Page() {
           Skills
         </h2>
         <div className=" grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiHtml5 size="2.5rem" className=" text-orange-700" />
@@ -37,21 +40,22 @@ function Page() {
           </div>
           <div
             className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white 
-          dark:bg-gray-300
-          dark:hover:bg-gray-200"
+            dark:bg-gray-900
+            dark:hover:bg-gray-950"
           >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiCss3 size="2.5rem" className=" text-sky-700" />
               </div>
               <div>
-                <h3 className=" dark:text-gray-200 dark:hover:text-gray-900">
-                  Css3
-                </h3>
+                <h3 className=" dark:text-gray-200 ">Css3</h3>
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white   dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiJavascript size="2.5rem" className=" text-yellow-400" />
@@ -61,7 +65,10 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiTailwindcss size="2.5rem" className=" text-sky-500" />
@@ -71,7 +78,10 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiReact size="2.5rem" className=" text-sky-500" />
@@ -81,7 +91,10 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white   dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiNextdotjs size="2.5rem" className=" text-black" />
@@ -91,7 +104,10 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiRedux size="2.5rem" className=" text-purple-700" />
@@ -101,7 +117,10 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300  hover:bg-white  dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300  hover:bg-white   dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiNodedotjs size="2.5rem" className=" text-green-700" />
@@ -111,10 +130,13 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
-                <SiExpress size="2.5rem" />
+                <SiExpress size="2.5rem" className=" dark:text-gray-200 " />
               </div>
               <div>
                 <h3 className=" dark:text-gray-200">Express</h3>
@@ -122,21 +144,22 @@ function Page() {
             </div>
           </div>
           <div
-            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:bg-gray-300
-          dark:hover:bg-gray-200"
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:bg-gray-900
+          dark:hover:bg-gray-950"
           >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
-                <SiMysql size="2.5rem" />
+                <SiMysql size="2.5rem" className=" dark:text-gray-200" />
               </div>
               <div>
-                <h3 className=" dark:text-gray-200 dark:hover:text-gray-900">
-                  MySQL
-                </h3>
+                <h3 className=" dark:text-gray-200 ">MySQL</h3>
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white  dark:bg-gray-900
+          dark:hover:bg-gray-950"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiMongodb size="2.5rem" className=" text-green-700" />
