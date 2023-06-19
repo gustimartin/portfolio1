@@ -7,18 +7,18 @@ function Hero() {
   return (
     <div
       id="hero"
-      className=" mx-auto   pt-96 md:pt-2 bg-gray-200 w-full h-screen  pb-96 md:pb-0"
+      className=" mx-auto dark:bg-slate-800  pt-96 md:pt-2 bg-gray-200 w-full h-screen  pb-96 md:pb-0"
     >
       <div className=" pb-4 max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center md:grid md:grid-cols-2">
         <div className=" flex-col  py-6 pl-8 md:max-w-prose">
-          <h1 className="  text-sky-900 text-center  text-6xl font-bold tracking-widest">
+          <h1 className="  text-sky-900 text-center  text-6xl font-bold tracking-widest dark:text-gray-200">
             Welcome To
           </h1>
           <br />
-          <h2 className=" text-center text-5xl font-semibold  py-2 text-sky-900  tracking-widest">
+          <h2 className=" text-center text-5xl font-semibold  py-2 text-sky-900  tracking-widest dark:text-gray-200">
             My Personal Portfolio
           </h2>
-          <p className=" first-letter:text-5xl first-letter:text-gray-900  max-w-[85%] mx-auto text-xl  pt-4 pb-2 text-gray-700 tracking-widest">
+          <p className=" first-letter:text-5xl first-letter:text-gray-900  max-w-[85%] mx-auto text-xl  pt-4 pb-2 text-gray-700 tracking-widest dark:text-gray-200">
             Portfolio build with Next js, React js, javascript and Tailwind css
             with a responsive design and a light/Dark feature. Please feel free
             to look around and see my work and my background.
@@ -31,7 +31,7 @@ function Hero() {
             src={hero2}
             alt="image"
             // layout="intrinsic"
-            className=" rounded-sm shadow-xl"
+            className=" rounded-sm shadow-xl dark:shadow-lg dark:shadow-gray-700"
             // width="1200"
             // height="800"
           />{" "}
@@ -40,20 +40,18 @@ function Hero() {
               href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
               target="_blank"
             >
-              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className=" rounded-full shadow-lg shadow-gray-400 dark:shadow-gray-700 dark:text-gray-200 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                 <BsLinkedin />
               </div>
             </Link>
             <Link href="https://github.com/gustimartin" target="_blank">
-              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className=" rounded-full dark:shadow-gray-700 dark:text-gray-200 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                 <BsGithub />
               </div>
             </Link>
-            {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div> */}
+
             <Link href="/contact">
-              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-200">
                 <AiOutlineMail />
               </div>
             </Link>
