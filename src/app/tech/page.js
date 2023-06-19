@@ -35,7 +35,11 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white 
+          dark:bg-slate-500
+          dark:hover:bg-gray-400"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiCss3 size="2.5rem" className=" text-sky-700" />
