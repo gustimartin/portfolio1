@@ -6,9 +6,9 @@ import thecleanplate from "../../public/thecleanplate.png";
 import henrycountry from "../../public/henrycountry.png";
 function Projects() {
   return (
-    <div id="projects" className=" w-full mt-24 dark:bg-slate-800">
+    <div id="projects" className=" w-full pt-24 dark:bg-slate-800">
       <div className=" max-w-[1240] mx-auto px-2 py-16 ">
-        <p className=" uppercase tracking-widest text-4xl dark:text.gray-200">
+        <p className=" uppercase tracking-widest text-4xl dark:text-gray-200">
           Projects
         </p>
         <div className=" grid md:grid-cols-2 gap-8">
