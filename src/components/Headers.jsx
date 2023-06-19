@@ -48,17 +48,17 @@ function Headers() {
             <Link href="/contact">
               <li className="  list-none ml-10 text-sm uppercase hover:border-b">
                 <nav>Contact</nav>
-              </li>
-              <li className="  list-none ml-10 text-sm uppercase hover:border-b">
-                <button
-                  onClick={() =>
-                    setColorMode(colorMode === "light" ? "dark" : "light")
-                  }
-                >
-                  toggle
-                </button>
-              </li>
+              </li>{" "}
             </Link>
+            <li className="  list-none ml-10 text-sm uppercase hover:border-b">
+              <button
+                onClick={() =>
+                  setColorMode(colorMode === "light" ? "dark" : "light")
+                }
+              >
+                toggle
+              </button>
+            </li>
           </ul>
           <div onClick={handleNav} className=" md:hidden  text-white">
             <AiOutlineMenu size={25} />

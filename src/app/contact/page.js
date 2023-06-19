@@ -43,39 +43,45 @@ function Page() {
     reset();
   };
   return (
-    <div id="contact" className=" w-full lg:h-screen ">
+    <div id="contact" className=" w-full lg:h-screen dark:bg-slate-800   ">
       <div className=" max-w-[1240px] m-auto px-2 md:px-6 py-16 w-full ">
         <div className=" grid lg:grid-cols-5 gap-8">
-          <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4 rounded-md">
-            <div className="lg:p-4 h-full rounded-md hover:bg-white">
+          <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4 rounded-md dark:bg-slate-800 dark:shadow-gray-700">
+            <div className="lg:p-4 h-full rounded-md hover:bg-white dark:hover:bg-slate-700">
               <div className=" p-4">
                 <Image
                   src={pic}
-                  className=" max-h-96 w-full object-cover bg-gray-400 rounded-md hover:scale-105  ease-in duration-300"
+                  className=" max-h-96 w-full object-cover bg-gray-400 rounded-md hover:scale-105  ease-in duration-300  dark:bg-slate-800"
                   alt=""
                 />
               </div>
               <div>
-                <h2 className=" text-4xl font-semibold py-2">Gustavo Martin</h2>
-                <p className=" py-2 text-gray-700">Fullstack Developer</p>
-                <p>
+                <h2 className=" text-4xl font-semibold py-2  dark:text-gray-400">
+                  Gustavo Martin
+                </h2>
+                <p className=" py-2 text-gray-700 dark:text-gray-400">
+                  Fullstack Developer
+                </p>
+                <p className=" dark:text-gray-400">
                   Thank you for youre interest leave a message and i will get
                   back to you as soon as posible.
                 </p>
               </div>
               <div>
-                <p className=" uppercase pt-8 pb-2">Let&#39;s Connect</p>
+                <p className=" uppercase pt-8 pb-2 dark:text-gray-400">
+                  Let&#39;s Connect
+                </p>
                 <div className="flex  py-2  item-center md:pt-0 justify-between  p-4  max-w-[330px] m-auto   ">
                   <Link
                     href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
                     target="_blank"
                   >
-                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-400">
                       <BsLinkedin />
                     </div>
                   </Link>
                   <Link href="https://github.com/gustimartin" target="_blank">
-                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300 dark:shadow-gray-700 dark:text-gray-400">
                       <BsGithub />
                     </div>
                   </Link>
@@ -83,7 +89,7 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-md lg:p-4 ">
+          <div className=" col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-md lg:p-4 ">
             <div className=" p-1">
               <form
                 ref={form}
@@ -91,7 +97,7 @@ function Page() {
                 className="justify-center block p-2 md:p-6 py-14 rounded-md  "
               >
                 <div className=" justify-center  flex-col  ">
-                  <h2 className=" font-bold text-5xl flex justify-center mb-6 text-sky-950  ">
+                  <h2 className=" font-bold text-5xl flex justify-center mb-6 text-sky-950  dark:text-gray-700  ">
                     Contact Me
                   </h2>
                 </div>
@@ -112,7 +118,7 @@ function Page() {
                     py-1.5
                     text-base
                     font-normal
-                   shadow-xl bg-gray-200
+                   shadow-xl bg-gray-200 dark:bg-slate-600 dark:shadow-gray-700
                     rounded-md shadow-gray-400
                     transition
                     ease-in min-w-full
@@ -136,6 +142,7 @@ function Page() {
                     type="email"
                     className="form-control block
                     hover:scale-105
+                    dark:bg-slate-600 dark:shadow-gray-700
       w-full
       px-3
       py-1.5
@@ -161,7 +168,7 @@ function Page() {
                     })}
                     name="Message"
                     className=" hover:scale-105 
-      form-control
+      form-control dark:bg-slate-600 dark:shadow-gray-700
       block
       w-full
       px-3
@@ -183,7 +190,7 @@ function Page() {
                   <button
                     type="submit"
                     value="send"
-                    className=" text-white font-semibold cursor-pointer p-2 flex justify-center rounded-md shadow-md w-full bg-sky-950 hover:bg-sky-900  mt-1 hover:scale-105 "
+                    className=" text-white font-semibold cursor-pointer p-2 flex justify-center rounded-md shadow-md w-full bg-sky-950 hover:bg-sky-900  mt-1 hover:scale-105 dark:bg-gray-700 dark:text-slate-800 dark:shadow-gray-700 "
                   >
                     Send
                   </button>
