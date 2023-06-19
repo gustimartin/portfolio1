@@ -89,7 +89,7 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-md lg:p-4 ">
+          <div className=" col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-md lg:p-4 dark:bg-slate-800 ">
             <div className=" p-1">
               <form
                 ref={form}
