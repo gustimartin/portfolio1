@@ -100,7 +100,8 @@ function Headers() {
             <ul className=" uppercase">
               <li>
                 <button
-                  className=" px-4 py-2 text-gray-200 bg-gray-950"
+                  className=" px-4 py-1
+                   dark:text-gray-200 dark:shadow-lg dark:shadow-gray-700 dark:bg-gray-900"
                   onClick={() =>
                     setColorMode(colorMode === "light" ? "dark" : "light")
                   }
@@ -149,17 +150,23 @@ function Headers() {
                   href="https://www.linkedin.com/in/gustavo-martin-b64310263/"
                   target="_blank"
                 >
-                  <div className=" dark:bg-slate-950 dark:text-gray-200 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div
+                    className=" dark:bg-slate-900 dark:text-gray-200 
+                  dark:shadow-gray-700 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
                     <BsLinkedin />
                   </div>
                 </Link>
                 <Link href="https://github.com/gustimartin" target="_blank">
-                  <div className=" dark:bg-slate-950 dark:text-gray-200 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div
+                    className=" dark:bg-slate-900 dark:text-gray-200 rounded-full shadow-lg
+                  dark:shadow-gray-700 shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  >
                     <BsGithub />
                   </div>
                 </Link>
                 <Link onClick={() => setNav(false)} href="/contact">
-                  <div className=" dark:bg-slate-950 dark:text-gray-200 rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className=" dark:bg-slate-900 dark:text-gray-200 dark:shadow-gray-700  rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </Link>
