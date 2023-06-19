@@ -6,7 +6,7 @@ import { useState } from "react";
 import Image from "next/legacy/image";
 import logoNav2 from "../../public/lgf2.png";
 import logoNav from "../../public/lgf1.png";
-import ThemeSwitch from "../app/ThemeSwitch.js";
+import ThemeChange from "../app/ThemeChange.js";
 
 function Headers() {
   const [nav, setNav] = useState(false);
@@ -50,7 +50,7 @@ function Headers() {
               </li>
             </Link>
             <li className="  list-none ml-10 text-sm uppercase hover:border-b">
-              <ThemeSwitch />
+              <ThemeChange />
             </li>
           </ul>
           <div onClick={handleNav} className=" md:hidden  text-white">

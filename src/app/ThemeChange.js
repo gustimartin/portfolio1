@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-export default function ThemeSwitch() {
+export default function ThemeChange() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
