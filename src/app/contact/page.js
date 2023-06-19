@@ -43,8 +43,8 @@ function Page() {
     reset();
   };
   return (
-    <div id="contact" className=" w-full h-screen dark:bg-slate-800   ">
-      <div className=" max-w-[1240px] mx-auto px-2 md:px-6 py-16 w-full h-screen">
+    <div id="contact" className=" w-full h-full dark:bg-slate-800   ">
+      <div className=" max-w-[1240px] mx-auto px-2 md:px-6 py-16 w-full h-full">
         <div className=" grid lg:grid-cols-5 gap-8">
           <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4 rounded-md dark:bg-slate-800 dark:shadow-gray-700">
             <div className="lg:p-4 h-full rounded-md hover:bg-white dark:hover:bg-slate-900">
