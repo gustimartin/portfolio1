@@ -89,7 +89,7 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-md lg:p-4 dark:bg-slate-800 ">
+          <div className=" col-span-3 w-full h-auto shadow-xl shadow-gray-400 dark:shadow-gray-700 rounded-md lg:p-4 dark:bg-slate-800 dark:hover:bg-gray-900 ">
             <div className=" p-1">
               <form
                 ref={form}
@@ -112,13 +112,15 @@ function Page() {
                     })}
                     type="text"
                     className="form-control block
+                  
             hover:scale-105
                     w-full
                     px-3
+                    dark:placeholder:text-gray-900
                     py-1.5
                     text-base
                     font-normal
-                   shadow-lg bg-gray-200 dark:bg-gray-400 dark:shadow-gray-700
+                   shadow-lg bg-gray-200 dark:bg-gray-300 dark:shadow-gray-700
                     rounded-md shadow-gray-400
                     transition
                     ease-in min-w-full
@@ -142,7 +144,7 @@ function Page() {
                     type="email"
                     className="form-control block
                     hover:scale-105
-                    dark:bg-gray-400 dark:shadow-gray-700
+                    dark:bg-gray-300 dark:shadow-gray-700 dark:placeholder:text-gray-900
       w-full
       px-3
       py-1.5
@@ -168,7 +170,7 @@ function Page() {
                     })}
                     name="Message"
                     className=" hover:scale-105 
-      form-control dark:bg-gray-400 dark:shadow-gray-700
+      form-control dark:bg-gray-300 dark:placeholder:text-gray-900 dark:shadow-gray-700
       block
       w-full
       px-3
