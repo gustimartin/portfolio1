@@ -6,7 +6,8 @@ import { useState } from "react";
 import Image from "next/legacy/image";
 import logoNav2 from "../../public/lgf2.png";
 import logoNav from "../../public/lgf1.png";
-import ThemeSwitch from "@/app/ThemeSwitch.js";
+import ThemeSwitch from "../app/ThemeSwitch";
+
 function Headers() {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -143,21 +144,3 @@ function Headers() {
 }
 
 export default Headers;
-// {
-//   /* <div
-//         classname=" flex items-center text-white
-//         "
-//       >
-//         <ul className=" flex text-white gap-7 items-center justify-end font-semibold text-xl  ">
-//           <li>
-//             <Link href="https://github.com/gustimartin">
-//               <BsGithub size=" 2.5rem" />
-//             </Link>
-//           </li>
-//           <li>
-//             <Link href="https://www.linkedin.com/in/gustavo-martin-b64310263/">
-//               <BsLinkedin size="2.5rem" />
-//             </Link>
-//           </li>
-//         </ul>
-//       </div> */

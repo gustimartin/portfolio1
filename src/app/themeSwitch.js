@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
-const ThemeSwitch = () => {
+export default function ThemeSwitch() {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
@@ -23,5 +23,4 @@ const ThemeSwitch = () => {
       <button onClick={() => setTheme("dark")}>Dark Mode</button>
     </div>
   );
-};
-export default ThemeSwitch;
+}
