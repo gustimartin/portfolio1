@@ -6,8 +6,6 @@ import { useState } from "react";
 import Image from "next/legacy/image";
 import logoNav2 from "../../public/lgf2.png";
 import logoNav from "../../public/lgf1.png";
-import ThemeChange from "../app/ThemeChange";
-
 function Headers() {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
@@ -49,9 +47,6 @@ function Headers() {
                 <nav>Contact</nav>
               </li>
             </Link>
-            <li className="  list-none ml-10 text-sm uppercase hover:border-b">
-              <ThemeChange />
-            </li>
           </ul>
           <div onClick={handleNav} className=" md:hidden  text-white">
             <AiOutlineMenu size={25} />
@@ -144,3 +139,21 @@ function Headers() {
 }
 
 export default Headers;
+// {
+//   /* <div
+//         classname=" flex items-center text-white
+//         "
+//       >
+//         <ul className=" flex text-white gap-7 items-center justify-end font-semibold text-xl  ">
+//           <li>
+//             <Link href="https://github.com/gustimartin">
+//               <BsGithub size=" 2.5rem" />
+//             </Link>
+//           </li>
+//           <li>
+//             <Link href="https://www.linkedin.com/in/gustavo-martin-b64310263/">
+//               <BsLinkedin size="2.5rem" />
+//             </Link>
+//           </li>
+//         </ul>
+//       </div> */
