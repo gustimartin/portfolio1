@@ -61,7 +61,7 @@ function Headers() {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-200 p-10 ease-in duration-500 overflow-auto "
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gray-200 p-10 ease-in duration-500 overflow-auto scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-200 scroll-p-2  "
               : " fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >

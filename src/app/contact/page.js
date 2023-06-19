@@ -79,12 +79,6 @@ function Page() {
                       <BsGithub />
                     </div>
                   </Link>
-                  {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div> */}
-                  {/* <div className=" rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -101,7 +95,7 @@ function Page() {
                     Contact Me
                   </h2>
                 </div>
-                <div className="form-group p-6  ">
+                <div className="form-group p-2 md:p-6  ">
                   <input
                     {...register("user_name", {
                       required: "Username is required",
@@ -128,7 +122,7 @@ function Page() {
                   />
                   <p className=" text-red-700"> {errors.user_name?.message}</p>
                 </div>
-                <div className="form-group p-6">
+                <div className="form-group p-2 md:p-6">
                   <input
                     {...register("user_email", {
                       required: "Email is required",
@@ -156,7 +150,7 @@ function Page() {
                   />
                   <p className=" text-red-700">{errors.user_email?.message}</p>
                 </div>
-                <div className="form-group p-6">
+                <div className="form-group p-2 md:p-6">
                   <textarea
                     {...register("Message", {
                       required: "Message is required",
@@ -185,7 +179,7 @@ function Page() {
                   ></textarea>
                   <p className=" text-red-700"> {errors.Message?.message}</p>
                 </div>
-                <div className="form-group  text-center p-6">
+                <div className="form-group  text-center p-2 md:p-6">
                   <button
                     type="submit"
                     value="send"
