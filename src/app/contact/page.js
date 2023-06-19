@@ -44,7 +44,7 @@ function Page() {
   };
   return (
     <div id="contact" className=" w-full lg:h-screen ">
-      <div className=" max-w-[1240px] m-auto  px-6 py-16 w-full ">
+      <div className=" max-w-[1240px] m-auto px-2 md:px-6 py-16 w-full ">
         <div className=" grid lg:grid-cols-5 gap-8">
           <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 p-4 rounded-md">
             <div className="lg:p-4 h-full rounded-md hover:bg-white">
@@ -88,7 +88,7 @@ function Page() {
               <form
                 ref={form}
                 onSubmit={handleSubmit(sendEmail)}
-                className="justify-center block p-6 py-14 rounded-md  "
+                className="justify-center block p-2 md:p-6 py-14 rounded-md  "
               >
                 <div className=" justify-center  flex-col  ">
                   <h2 className=" font-bold text-5xl flex justify-center mb-6 text-sky-950  ">
