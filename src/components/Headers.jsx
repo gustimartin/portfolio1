@@ -50,9 +50,9 @@ function Headers() {
                 <nav>Contact</nav>
               </li>{" "}
             </Link>
-            <li className="  list-none ml-10 text-sm uppercase hover:border-b">
+            <li className="  list-none ml-10 text-sm uppercase">
               <button
-                className=" px-4 py-2 text-gray-200 bg-gray-900 shadow-gray-700"
+                className=" px-4 py-1 text-gray-200 bg-gray-900 shadow-gray-700"
                 onClick={() =>
                   setColorMode(colorMode === "light" ? "dark" : "light")
                 }
