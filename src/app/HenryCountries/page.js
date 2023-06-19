@@ -21,9 +21,9 @@ function Page() {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>
+          <p className=" dark:text-gray-400">Project</p>
+          <h2 className=" dark:text-gray-200">Overview</h2>
+          <p className=" dark:text-gray-200">
             Henry Countries was my first full-stack project consuming a
             countries API. In this project, you can search or filter for a
             country and retrieve details such as population, capital, and
@@ -37,18 +37,22 @@ function Page() {
             href="https://github.com/gustimartin/pi-countries-henry"
             target="_blank"
           >
-            <button className="px-8 py-2 mt-4 mr-8  dark:bg-gray-400 ">
+            <button className="px-8 py-2 mt-4 mr-8  dark:bg-gray-400 dark:shadow-lg dark:shadow-gray-700">
               Code
             </button>
           </Link>
 
           <Link href="" target="_blank">
-            <button className="px-8 py-2 mt-4 dark:bg-gray-400">Demo</button>
+            <button className="px-8 py-2 mt-4 dark:bg-gray-400 dark:shadow-lg dark:shadow-gray-700">
+              Demo
+            </button>
           </Link>
         </div>
-        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+        <div className="col-span-4 md:col-span-1 shadow-lg  dark:shadow-gray-700 shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
+            <p className="text-center font-bold pb-2 dark:text-gray-200">
+              Technologies
+            </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p
                 className="text-gray-600 
