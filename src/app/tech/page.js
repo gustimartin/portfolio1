@@ -37,15 +37,17 @@ function Page() {
           </div>
           <div
             className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white 
-          dark:bg-slate-500
-          dark:hover:bg-gray-400"
+          dark:bg-gray-300
+          dark:hover:bg-gray-200"
           >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiCss3 size="2.5rem" className=" text-sky-700" />
               </div>
               <div>
-                <h3 className=" dark:text-gray-200">Css3</h3>
+                <h3 className=" dark:text-gray-200 dark:hover:text-gray-900">
+                  Css3
+                </h3>
               </div>
             </div>
           </div>
@@ -119,13 +121,18 @@ function Page() {
               </div>
             </div>
           </div>
-          <div className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:hover:bg-gray-800">
+          <div
+            className=" p-6 shadow-xl rounded-xl ease-in duration-300 hover:bg-white dark:bg-gray-300
+          dark:hover:bg-gray-200"
+          >
             <div className="grid grid-cols-2 justify-center gap-4 items-center ">
               <div className=" m-auto">
                 <SiMysql size="2.5rem" />
               </div>
               <div>
-                <h3 className=" dark:text-gray-200">MySQL</h3>
+                <h3 className=" dark:text-gray-200 dark:hover:text-gray-900">
+                  MySQL
+                </h3>
               </div>
             </div>
           </div>
