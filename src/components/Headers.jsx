@@ -52,7 +52,7 @@ function Headers() {
             </Link>
             <li className="  list-none ml-10 text-sm uppercase hover:border-b">
               <button
-                className=" px-4 py-2 text-gray-200 bg-gray-950"
+                className=" px-4 py-2 text-gray-200 bg-gray-900 shadow-gray-700"
                 onClick={() =>
                   setColorMode(colorMode === "light" ? "dark" : "light")
                 }
@@ -85,7 +85,7 @@ function Headers() {
               </div>
               <div
                 onClick={handleNav}
-                className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:text-gray-200 dark:bg-gray-950 dark:shadow-gray-700"
+                className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:text-gray-200 dark:bg-gray-900 dark:shadow-gray-700"
               >
                 <AiOutlineClose />
               </div>
