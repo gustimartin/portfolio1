@@ -41,12 +41,12 @@ function Page() {
               Code
             </button>
           </Link>
-
+          {/* 
           <Link href="" target="_blank">
             <button className="px-8 py-2 mt-4 dark:bg-gray-400 dark:shadow-lg dark:shadow-gray-700">
               Demo
             </button>
-          </Link>
+          </Link> */}
         </div>
         <div className="col-span-4 md:col-span-1 shadow-lg  dark:shadow-gray-700 shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
