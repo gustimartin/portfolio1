@@ -20,11 +20,11 @@ function Page() {
           medicine, where I acquired effective learning methods and collaborated
           with fellow students on presentations and various evaluated projects.
           Additionally, I worked in construction with concrete and farming, from
-          which I learned the value of hard work and consistency. I have
-          experienced the satisfaction of working in a team with people who
-          share the same goal. That is precisely what I expect to find in web
-          development, to be part of a bigger goal and experiencing the
-          gratifying feeling of getting the job done.
+          which I learned the value of hard work and team work. I expect web
+          development to provide me with opportunities for continuous learning
+          and constant challenges. I look forward to exploring new technologies
+          and working on diverse projects that push me to expand my skills and
+          knowledge.
         </p>
       </div>
     </div>
