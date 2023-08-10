@@ -60,7 +60,7 @@ function Page() {
             {img
               ? img.map((el) => {
                   <Image
-                    className="absolute z-1"
+                    className=""
                     layout="fill"
                     objectFit="cover"
                     src={el}
