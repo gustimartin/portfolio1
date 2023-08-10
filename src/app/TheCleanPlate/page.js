@@ -31,7 +31,7 @@ function Page() {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p className=" dark:text-gray-400">Project</p>
+          <p className=" dark:text-gray-400 p-2">Project</p>
           <h2 className=" dark:text-gray-200">Overview</h2>
           <p className="  dark:text-gray-200">
             The Clean Plate is a group project completed within a period of
@@ -67,7 +67,7 @@ function Page() {
                     alt="/"
                   />;
                 })
-              : console.log(error)}
+              : console.log(img)}
           </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-lg  dark:shadow-gray-700 shadow-gray-400 rounded-xl py-4">
