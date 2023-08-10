@@ -2,7 +2,17 @@ import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
 import bgImg from "../../../public/thecleanplate.png";
+import about from "../../../public/about.png";
+import category from "../../../public/category.png";
+import contact from "../../../public/contact.png";
+import detail from "../../../public/contact.png";
+import home from "../../../public/home.png";
+import product from "../../../public/product.png";
+import review from "../../../public/review.png";
+import shop from "../../../public/shop.png";
 function Page() {
+  const img = [about, category, contact, detail, home, product, review, shop];
+
   return (
     <div className="w-full pt-20 dark:bg-slate-800">
       <div className="w-screen h-[50vh] relative">
@@ -41,11 +51,24 @@ function Page() {
               Code
             </button>
           </Link>
-          <Link href="https://frontend-pf-seven.vercel.app/" target="_blank">
+          {/* <Link href="https://frontend-pf-seven.vercel.app/" target="_blank">
             <button className="px-8 py-2  dark:bg-gray-400 dark:shadow-lg dark:shadow-gray-700 mt-4">
               Demo
             </button>
-          </Link>
+          </Link> */}
+          <div className=" grid-cols-4">
+            {img
+              ? img.map((el) => {
+                  <Image
+                    className="absolute z-1"
+                    layout="fill"
+                    objectFit="cover"
+                    src={el}
+                    alt="/"
+                  />;
+                })
+              : console.log(error)}
+          </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-lg  dark:shadow-gray-700 shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
