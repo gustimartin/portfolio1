@@ -86,19 +86,7 @@ function Page() {
             </div>
           </div>
         </div>
-        <div className=" grid-cols-4">
-          {img
-            ? img.map((el) => {
-                <Image
-                  className=""
-                  height={200}
-                  width={200}
-                  src={el}
-                  alt="/"
-                />;
-              })
-            : console.log(img)}
-        </div>
+        <div className=" grid-cols-4"></div>
         <Link href="/#projects">
           <p className="underline cursor-pointer dark:text-gray-200">Back</p>
         </Link>
