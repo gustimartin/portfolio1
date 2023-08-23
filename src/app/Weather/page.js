@@ -24,8 +24,10 @@ function Page() {
           <p className=" dark:text-gray-400">Project</p>
           <h2 className=" dark:text-gray-200">Overview</h2>
           <p className=" dark:text-gray-200">
-            A simple weather app using Next.js, React.js, Tailwind.css,
-            Javascript. Consuming a weather API from OpenWeatherMap.
+            Experience the convenience of our user-friendly weather app built
+            using Next.js, React.js, Tailwind CSS, and JavaScript. By consuming
+            the OpenWeatherMap API, you can easily check the temperature in any
+            location and switch between Fahrenheit and Celsius units.
           </p>
           <Link href="https://github.com/gustimartin/weather" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8  dark:bg-gray-400 dark:shadow-lg dark:shadow-gray-700">
