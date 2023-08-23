@@ -15,7 +15,7 @@ function Page() {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-gray-200  z-10 p-2">
-          <h2 className="py-2">Henry Countries</h2>
+          <h2 className="py-2">WeatherApp</h2>
         </div>
       </div>
 
@@ -24,14 +24,8 @@ function Page() {
           <p className=" dark:text-gray-400">Project</p>
           <h2 className=" dark:text-gray-200">Overview</h2>
           <p className=" dark:text-gray-200">
-            Henry Countries was my first full-stack project consuming a
-            countries API. In this project, you can search or filter for a
-            country and retrieve details such as population, capital, and
-            continent. Additionally, you have the option to create a new
-            activity for a country or explore existing activities available in
-            that country. I learned a lot from this project, and if I could do
-            something differently, I would make the website responsive and
-            change its style.
+            A simple weather app using Next.js, React.js, Tailwind.css,
+            Javascript. Consuming a weather API from OpenWeatherMap.
           </p>
           <Link href="https://github.com/gustimartin/weather" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8  dark:bg-gray-400 dark:shadow-lg dark:shadow-gray-700">
