@@ -52,13 +52,13 @@ function Page() {
               dark:text-gray-200
               py-2 flex items-center"
               >
-                React
+                Next.js
               </p>
               <p
                 className="text-gray-600 py-2 flex
               dark:text-gray-200 items-center"
               >
-                Css3
+                React
               </p>
               <p
                 className="text-gray-600 
@@ -67,7 +67,7 @@ function Page() {
                 Javascript
               </p>
               <p className="text-gray-600 dark:text-gray-200 py-2 flex items-center">
-                Next.js
+                Css3
               </p>
               <p className="text-gray-600 py-2 flex items-center dark:text-gray-200">
                 Tailwind.css
