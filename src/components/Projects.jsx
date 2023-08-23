@@ -26,7 +26,7 @@ function Projects() {
           <ProjectItem
             title="WeatherApp"
             bgImg={weatherApp}
-            projectUrl="/WeatherApp"
+            projectUrl="/weatherApp"
           />
         </div>
       </div>
