@@ -4,6 +4,7 @@ import Image from "next/legacy/image";
 import ProjectItem from "./ProjectItem";
 import thecleanplate from "../../public/thecleanplate.png";
 import henrycountry from "../../public/henrycountry.png";
+import weatherApp from "../../public/weather.png";
 function Projects() {
   return (
     <div id="projects" className=" w-full pt-24 md:pt-2 dark:bg-slate-800">
@@ -21,6 +22,11 @@ function Projects() {
             title="Henry Countries"
             bgImg={henrycountry}
             projectUrl="/HenryCountries"
+          />
+          <ProjectItem
+            title="WeatherApp"
+            bgImg={weatherApp}
+            projectUrl="/WeatherApp"
           />
         </div>
       </div>

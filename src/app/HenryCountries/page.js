@@ -24,14 +24,8 @@ function Page() {
           <p className=" dark:text-gray-400">Project</p>
           <h2 className=" dark:text-gray-200">Overview</h2>
           <p className=" dark:text-gray-200">
-            Henry Countries was my first full-stack project consuming a
-            countries API. In this project, you can search or filter for a
-            country and retrieve details such as population, capital, and
-            continent. Additionally, you have the option to create a new
-            activity for a country or explore existing activities available in
-            that country. I learned a lot from this project, and if I could do
-            something differently, I would make the website responsive and
-            change its style.
+            A simple weather app using Next.js, React.js, Tailwind and
+            Javascript. Consuming a waether API from OpenWeatherMap.
           </p>
           <Link
             href="https://github.com/gustimartin/pi-countries-henry"
