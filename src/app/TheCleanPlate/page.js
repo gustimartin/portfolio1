@@ -12,7 +12,7 @@ import review from "../../../public/review.png";
 import shop from "../../../public/shop.png";
 function Page() {
   const img = [about, category, contact, detail, home, product, review, shop];
-
+  console.log(img);
   return (
     <div className="w-full pt-20 dark:bg-slate-800">
       <div className="w-screen h-[50vh] relative">
@@ -56,19 +56,6 @@ function Page() {
               Demo
             </button>
           </Link> */}
-          <div className=" grid-cols-4">
-            {img
-              ? img.map((el) => {
-                  <Image
-                    className=""
-                    layout="fill"
-                    objectFit="cover"
-                    src={el}
-                    alt="/"
-                  />;
-                })
-              : console.log(img)}
-          </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-lg  dark:shadow-gray-700 shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
@@ -100,6 +87,19 @@ function Page() {
               </p>
             </div>
           </div>
+        </div>
+        <div className=" grid-cols-4">
+          {img
+            ? img.map((el) => {
+                <Image
+                  className=""
+                  height={200}
+                  width={200}
+                  src={el}
+                  alt="/"
+                />;
+              })
+            : console.log(img)}
         </div>
         <Link href="/#projects">
           <p className="underline cursor-pointer dark:text-gray-200">Back</p>
