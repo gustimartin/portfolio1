@@ -11,8 +11,6 @@ import product from "../../../public/product.png";
 import review from "../../../public/review.png";
 import shop from "../../../public/shop.png";
 function Page() {
-  const img = [about, category, contact, detail, home, product, review, shop];
-  console.log(img);
   return (
     <div className="w-full pt-20 dark:bg-slate-800">
       <div className="w-screen h-[50vh] relative">
