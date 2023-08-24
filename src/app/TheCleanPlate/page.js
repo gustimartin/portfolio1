@@ -42,7 +42,7 @@ function Page() {
             communication skills. It was a very enjoyable experience.
           </p>
           <Link
-            to="https://github.com/gustimartin/final-project-henry"
+            href="https://github.com/gustimartin/final-project-henry"
             target="_blank"
             rel="noreferrer"
           >
@@ -140,7 +140,7 @@ function Page() {
           objectFit="cover"
         />
       </div>
-      <Link to="/#projects">
+      <Link href="/#projects">
         <p className="underline cursor-pointer dark:text-gray-200">Back</p>
       </Link>
     </div>
