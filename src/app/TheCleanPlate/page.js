@@ -88,7 +88,11 @@ function Page() {
           </div>
         </div>
       </div>
-      <div className=" grid gap-1 rounded-sm md:grid-cols-2 lg:grid-cols-3  ">
+      <div
+        className=" grid gap-1 rounded-sm md:grid-cols-2 lg:grid-cols-3  hover:ease-out hover:duration-300
+         
+         hover:scale-110 md:hover:scale-150 "
+      >
         <Image
           className="  hover:ease-out hover:duration-300
          md:hover:translate-x-28 
