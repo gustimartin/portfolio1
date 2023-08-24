@@ -102,7 +102,7 @@ function Page() {
         />
         <Image
           className="hover:ease-out hover:duration-500 
-          h-full hover:scale-110  md:hover:translate-x-28 
+          h-full hover:scale-110  
           "
           src={product}
           alt="dd"
