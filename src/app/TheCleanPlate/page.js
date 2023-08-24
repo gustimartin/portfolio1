@@ -103,11 +103,18 @@ function Page() {
             alt="dd"
           />
         </div>
-        <Image
-          className="hover:ease-out hover:duration-200 hover:scale-110 lg:hover:translate-x-0  md:hover:scale-150 md:hover:-translate-x-28"
-          src={category}
-          alt="dd"
-        />
+        <div
+          className=" hover:ease-out hover:duration-300
+         md:hover:translate-x-28 
+         hover:scale-110 md:hover:scale-150"
+        >
+          <Image
+            className="hover:ease-out hover:duration-200 hover:scale-110 lg:hover:translate-x-0  md:hover:scale-150 md:hover:-translate-x-28"
+            src={category}
+            alt="dd"
+          />
+        </div>
+
         <Image
           className="hover:ease-out hover:duration-500 
           h-full hover:scale-110 lg:hover:-translate-x-28  md:hover:scale-150 md:hover:translate-x-28 
