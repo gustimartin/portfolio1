@@ -1,15 +1,15 @@
-import Image from "next/legacy/image";
-import Link from "next/link";
+import Link from "next/Link";
 import React from "react";
-import bgImg from "../../../public/thecleanplate.png";
 import about from "../../../public/about.png";
 import category from "../../../public/category.png";
 import contact from "../../../public/contact.png";
-import detail from "../../../public/contact.png";
+import detail from "../../../public/detail.png";
 import home from "../../../public/home.png";
 import product from "../../../public/product.png";
 import review from "../../../public/review.png";
 import shop from "../../../public/shop.png";
+import bgImg from "../../../public/thecleanplate.png";
+
 function Page() {
   return (
     <div className="w-full pt-20 dark:bg-slate-800">
@@ -41,7 +41,7 @@ function Page() {
             communication skills. It was a very enjoyable experience.
           </p>
           <Link
-            href="https://github.com/gustimartin/final-project-henry"
+            to="https://github.com/gustimartin/final-project-henry"
             target="_blank"
             rel="noreferrer"
           >
@@ -86,11 +86,61 @@ function Page() {
             </div>
           </div>
         </div>
-        <div className=" grid-cols-4"></div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer dark:text-gray-200">Back</p>
-        </Link>
       </div>
+      <div className=" grid gap-1 rounded-sm md:grid-cols-2 lg:grid-cols-3  ">
+        <img
+          className="  hover:ease-out hover:duration-300
+         md:hover:translate-x-28 
+         hover:scale-110 md:hover:scale-150"
+          src={home}
+          alt="dd"
+        />
+        <img
+          className="hover:ease-out hover:duration-200 hover:scale-110 lg:hover:translate-x-0  md:hover:scale-150 md:hover:-translate-x-28"
+          src={category}
+          alt="dd"
+        />
+        <img
+          className="hover:ease-out hover:duration-500 
+          h-full hover:scale-110 lg:hover:-translate-x-28  md:hover:scale-150 md:hover:translate-x-28 
+          "
+          src={product}
+          alt="dd"
+        />
+        <img
+          className="hover:ease-out hover:duration-200 hover:scale-110 md:hover:scale-150 lg:hover:translate-x-28 md:hover:-translate-x-28"
+          src={detail}
+          alt="dd"
+        />
+        <img
+          className="hover:ease-out hover:duration-200 hover:scale-110 md:hover:scale-150 lg:hover:translate-x-0 md:hover:translate-x-28"
+          src={shop}
+          alt="dd"
+        />
+        <img
+          className="hover:ease-out lg:hover:-translate-x-28 hover:duration-200 hover:scale-110 md:hover:scale-150 md:hover:-translate-x-28"
+          src={review}
+          alt="dd"
+        />
+        <img
+          className="  hover:ease-out hover:duration-300 
+         md:hover:translate-x-28
+          md:hover:scale-150 hover:scale-110"
+          src={contact}
+          alt="dd"
+        />
+        <img
+          className="  hover:ease-out hover:duration-300
+          lg:hover:translate-x-0
+         md:hover:-translate-x-28
+          md:hover:scale-150 hover:scale-110"
+          src={about}
+          alt="dd"
+        />
+      </div>
+      <Link to="/#projects">
+        <p className="underline cursor-pointer dark:text-gray-200">Back</p>
+      </Link>
     </div>
   );
 }
