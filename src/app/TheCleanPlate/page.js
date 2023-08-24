@@ -89,48 +89,51 @@ function Page() {
         </div>
       </div>
       <div className=" grid gap-1 rounded-sm md:grid-cols-2 lg:grid-cols-3  ">
-        <img
-          className="  hover:ease-out hover:duration-300
+        <div>
+          {" "}
+          <Image
+            className="  hover:ease-out hover:duration-300
          md:hover:translate-x-28 
          hover:scale-110 md:hover:scale-150"
-          src={home}
-          alt="dd"
-        />
-        <img
+            src={home}
+            alt="dd"
+          />
+        </div>
+        <Image
           className="hover:ease-out hover:duration-200 hover:scale-110 lg:hover:translate-x-0  md:hover:scale-150 md:hover:-translate-x-28"
           src={category}
           alt="dd"
         />
-        <img
+        <Image
           className="hover:ease-out hover:duration-500 
           h-full hover:scale-110 lg:hover:-translate-x-28  md:hover:scale-150 md:hover:translate-x-28 
           "
           src={product}
           alt="dd"
         />
-        <img
+        <Image
           className="hover:ease-out hover:duration-200 hover:scale-110 md:hover:scale-150 lg:hover:translate-x-28 md:hover:-translate-x-28"
           src={detail}
           alt="dd"
         />
-        <img
+        <Image
           className="hover:ease-out hover:duration-200 hover:scale-110 md:hover:scale-150 lg:hover:translate-x-0 md:hover:translate-x-28"
           src={shop}
           alt="dd"
         />
-        <img
+        <Image
           className="hover:ease-out lg:hover:-translate-x-28 hover:duration-200 hover:scale-110 md:hover:scale-150 md:hover:-translate-x-28"
           src={review}
           alt="dd"
         />
-        <img
+        <Image
           className="  hover:ease-out hover:duration-300 
          md:hover:translate-x-28
           md:hover:scale-150 hover:scale-110"
           src={contact}
           alt="dd"
         />
-        <img
+        <Image
           className="  hover:ease-out hover:duration-300
           lg:hover:translate-x-0
          md:hover:-translate-x-28
