@@ -1,14 +1,6 @@
 import Link from "next/link";
 import Image from "next/legacy/image";
 import React from "react";
-import about from "../../../public/about.png";
-import category from "../../../public/category.png";
-import contact from "../../../public/contact.png";
-import detail from "../../../public/detail.png";
-import home from "../../../public/home.png";
-import product from "../../../public/product.png";
-import review from "../../../public/review.png";
-import shop from "../../../public/shop.png";
 import bgImg from "../../../public/thecleanplate.png";
 
 function Page() {
@@ -88,50 +80,54 @@ function Page() {
           </div>
         </div>
       </div>
-      <div className=" grid gap-1 rounded-sm md:grid-cols-2   ">
-        <Image
+      <div className=" grid gap-1 rounded-sm md:grid-cols-2 lg:grid-cols-3">
+        <img
           className="hover:ease-out hover:duration-300
-         hover:scale-110 "
-          src={home}
+          md:hover:translate-x-28 
+          hover:scale-110 md:hover:scale-150 "
+          src="home.png"
           alt="dd"
         />
-        <Image
-          className="hover:ease-out hover:duration-200 hover:scale-110   "
-          src={category}
+        <img
+          className="hover:ease-out hover:duration-200 hover:scale-110 lg:hover:translate-x-0  md:hover:scale-150 md:hover:-translate-x-28"
+          src="category.png"
           alt="dd"
         />
-        <Image
+        <img
           className="hover:ease-out hover:duration-500 
-          h-full hover:scale-110  
+          h-full hover:scale-110 lg:hover:-translate-x-28  md:hover:scale-150 md:hover:translate-x-28   
           "
-          src={product}
+          src="/product.png"
           alt="dd"
         />
-        <Image
-          className="hover:ease-out hover:duration-200 hover:scale-110 "
-          src={detail}
+        <img
+          className="hover:ease-out hover:duration-200 hover:scale-110 md:hover:scale-150 lg:hover:translate-x-28 md:hover:-translate-x-28 "
+          src="/detail.png"
           alt="dd"
         />
-        <Image
-          className="hover:ease-out hover:duration-200 hover:scale-110 "
-          src={shop}
+        <img
+          className="hover:ease-out hover:duration-200 hover:scale-110 md:hover:scale-150 lg:hover:translate-x-0 md:hover:translate-x-28 "
+          src="/shop.png"
           alt="dd"
         />
-        <Image
-          className="hover:ease-out  hover:duration-200 hover:scale-110 "
-          src={review}
+        <img
+          className="hover:ease-out lg:hover:-translate-x-28 hover:duration-200 hover:scale-110 md:hover:scale-150 md:hover:-translate-x-28"
+          src="/review.png"
           alt="dd"
         />
-        <Image
-          className="  hover:ease-out hover:duration-300 
-          hover:scale-110"
-          src={contact}
+        <img
+          className="hover:ease-out hover:duration-300 
+          md:hover:translate-x-28
+           md:hover:scale-150 hover:scale-110"
+          src="/contact.png"
           alt="dd"
         />
-        <Image
-          className="  hover:ease-out hover:duration-300
-          hover:scale-110"
-          src={about}
+        <img
+          className=" hover:ease-out hover:duration-300
+          lg:hover:translate-x-0
+         md:hover:-translate-x-28
+          md:hover:scale-150 hover:scale-110"
+          src="/about.png"
           alt="dd"
         />
       </div>
