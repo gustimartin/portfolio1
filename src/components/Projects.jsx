@@ -31,7 +31,7 @@ function Projects() {
           />
           <ProjectItem
             title="NextApp"
-            bgImg={nextapp}
+            bgImg={nextApp}
             projectUrl="/nextTasks"
           />
         </div>
