@@ -5,6 +5,7 @@ import ProjectItem from "./ProjectItem";
 import thecleanplate from "../../public/thecleanplate.png";
 import henrycountry from "../../public/henrycountry.png";
 import weatherApp from "../../public/weather.png";
+import nextApp from "../../public/nextapp.png";
 function Projects() {
   return (
     <div id="projects" className=" w-full pt-24 md:pt-2 dark:bg-slate-800">
@@ -27,6 +28,11 @@ function Projects() {
             title="WeatherApp"
             bgImg={weatherApp}
             projectUrl="/Weather"
+          />
+          <ProjectItem
+            title="NextApp"
+            bgImg={nextapp}
+            projectUrl="/nextTasks"
           />
         </div>
       </div>

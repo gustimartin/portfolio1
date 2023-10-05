@@ -12,7 +12,6 @@ function ProjectItem({ title, bgImg, projectUrl }) {
         <h3 className=" text-2xl text-white tracking-wider text-center p-4  ">
           {title}
         </h3>
-
         <Link href={projectUrl}>
           <p className=" text-center p-2 rounded-md bg-gray-200 text-gray-900 font-bold text-lg">
             see more
